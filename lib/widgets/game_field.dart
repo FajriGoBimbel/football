@@ -101,7 +101,7 @@ class GameFieldPainter extends CustomPainter {
     canvas.drawRect(bottomGoalRect, goalNetPaint);
 
     // Draw penalty areas
-    final penaltyWidth = goalWidth + 60;
+    const penaltyWidth = goalWidth + 60;
     final penaltyLeft = (size.width - penaltyWidth) / 2;
     const penaltyHeight = 60.0;
 
