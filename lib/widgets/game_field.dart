@@ -72,7 +72,7 @@ class GameFieldPainter extends CustomPainter {
     );
 
     // Draw goal areas
-    final goalWidth = GameConstants.goalWidth;
+    const goalWidth = GameConstants.goalWidth;
     final goalLeft = (size.width - goalWidth) / 2;
 
     // Top goal (opponent)
@@ -103,7 +103,7 @@ class GameFieldPainter extends CustomPainter {
     // Draw penalty areas
     final penaltyWidth = goalWidth + 60;
     final penaltyLeft = (size.width - penaltyWidth) / 2;
-    final penaltyHeight = 60.0;
+    const penaltyHeight = 60.0;
 
     // Top penalty area
     canvas.drawRect(

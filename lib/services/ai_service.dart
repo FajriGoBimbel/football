@@ -15,7 +15,6 @@ class AiService {
     _tickCounter++;
 
     final opponents = engine.opponentTeamPlayers;
-    final ball = engine.ball;
 
     // Determine if AI team has the ball
     final aiHasBall = opponents.any((p) => p.hasBall);

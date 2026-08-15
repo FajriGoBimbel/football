@@ -436,7 +436,7 @@ class GameEngine extends ChangeNotifier {
 
     // Shoot toward opponent's goal (top of field)
     final goalCenterX = _fieldWidth / 2;
-    final goalY = 0.0;
+    const goalY = 0.0;
 
     final dir = Helpers.normalize(
       goalCenterX - _ball.x,
